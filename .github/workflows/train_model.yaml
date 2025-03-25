@@ -1,9 +1,13 @@
 name: Train LLM
+
+
 on:
   push:
     branches:
+      - main
       - dev
-  pull_requests:
+  pull_request:
+    branches:
       - main
 
 
