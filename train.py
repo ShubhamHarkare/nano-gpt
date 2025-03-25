@@ -48,7 +48,7 @@ optimizer = torch.optim.AdamW(m.parameters(),lr=lr)
 for iterator in range(max_iters):
     if iterator % eval_interval == 0:
         losses = eval_loss()
-        print(f'Step : {iterator} | Train Loss : {losses['train']} | Eval Loss : {losses['val']}')
+        print(f'Step : {iterator} | Train Loss : {losses["train"]} | Eval Loss : {losses["val"]}')
     xb,yb = get_batch('train')
     logits,loss = m(xb,yb)
     optimizer.zero_grad(set_to_none=True)
