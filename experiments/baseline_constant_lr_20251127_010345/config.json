@@ -1,0 +1,12 @@
+{
+  "max_iters": 5000,
+  "eval_interval": 500,
+  "learning_rate": 0.0003,
+  "batch_size": 32,
+  "lr_schedule": "constant",
+  "warmup_iters": 100,
+  "min_lr": 1e-05,
+  "dropout": 0.0,
+  "experiment_name": "baseline_constant_lr",
+  "save_model": true
+}

@@ -1,0 +1,22 @@
+{
+  "experiment_name": "cosine_lr_schedule",
+  "timestamp": "20251126_234743",
+  "config": {
+    "max_iters": 5000,
+    "eval_interval": 500,
+    "learning_rate": 0.0006,
+    "batch_size": 64,
+    "lr_schedule": "cosine",
+    "warmup_iters": 100,
+    "min_lr": 1e-05,
+    "dropout": 0.0,
+    "experiment_name": "cosine_lr_schedule",
+    "save_model": true
+  },
+  "final_train_loss": 0.03763221576809883,
+  "final_val_loss": 0.037966545671224594,
+  "final_perplexity": 1.038696527481079,
+  "best_val_loss": 0.037966545671224594,
+  "best_perplexity": 1.038696527481079,
+  "total_iterations": 11
+}

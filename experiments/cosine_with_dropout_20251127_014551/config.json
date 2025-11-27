@@ -1,0 +1,12 @@
+{
+  "max_iters": 5000,
+  "eval_interval": 500,
+  "learning_rate": 0.0006,
+  "batch_size": 32,
+  "lr_schedule": "cosine",
+  "warmup_iters": 100,
+  "min_lr": 1e-05,
+  "dropout": 0.2,
+  "experiment_name": "cosine_with_dropout",
+  "save_model": true
+}

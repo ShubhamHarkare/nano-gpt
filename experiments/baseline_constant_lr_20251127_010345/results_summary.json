@@ -1,0 +1,22 @@
+{
+  "experiment_name": "baseline_constant_lr",
+  "timestamp": "20251127_010345",
+  "config": {
+    "max_iters": 5000,
+    "eval_interval": 500,
+    "learning_rate": 0.0003,
+    "batch_size": 32,
+    "lr_schedule": "constant",
+    "warmup_iters": 100,
+    "min_lr": 1e-05,
+    "dropout": 0.0,
+    "experiment_name": "baseline_constant_lr",
+    "save_model": true
+  },
+  "final_train_loss": 0.03914373740553856,
+  "final_val_loss": 0.039136700332164764,
+  "final_perplexity": 1.0399125814437866,
+  "best_val_loss": 0.039136700332164764,
+  "best_perplexity": 1.0399125814437866,
+  "total_iterations": 11
+}
